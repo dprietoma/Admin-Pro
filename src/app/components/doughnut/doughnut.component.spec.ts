@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Grafica1Component } from './grafica1.component';
+import { DoughnutComponent } from './doughnut.component';
 
-describe('Grafica1Component', () => {
-  let component: Grafica1Component;
-  let fixture: ComponentFixture<Grafica1Component>;
+describe('DoughnutComponent', () => {
+  let component: DoughnutComponent;
+  let fixture: ComponentFixture<DoughnutComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [Grafica1Component]
+      declarations: [DoughnutComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Grafica1Component);
+    fixture = TestBed.createComponent(DoughnutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
